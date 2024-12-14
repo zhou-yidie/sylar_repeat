@@ -16,7 +16,7 @@
     "doxdocgen.cpp.dtorText": "析构函数",
     "doxdocgen.file.fileOrder": [
         "file",
-        "author",
+        
         "brief",
         "version",
         "date"
