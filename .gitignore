@@ -1,0 +1,26 @@
+# Prerequisites 先决条件
+*.d
+# Compiled Object files 编译的目标文件
+*.slo
+*.lo
+*.o
+*.obj
+# Precompiled Headers 预编译头文件
+*.gch
+*.pch
+# Compiled Dynamic libraries 编译的动态库
+*.so
+*.dylib
+*.dll
+# Fortran module files Fortran 模块文件
+*.mod
+*.smod
+# Compiled Static libraries 编译的静态库
+*.lai
+*.la
+*.a
+*.lib
+# Executables 可执行文件
+*.exe
+*.out
+*.app
