@@ -1,0 +1,4 @@
+/home/zhouyidie/Codes/sylar_repeat/build/CMakeFiles/sylar.dir
+/home/zhouyidie/Codes/sylar_repeat/build/CMakeFiles/test_log.dir
+/home/zhouyidie/Codes/sylar_repeat/build/CMakeFiles/edit_cache.dir
+/home/zhouyidie/Codes/sylar_repeat/build/CMakeFiles/rebuild_cache.dir

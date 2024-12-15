@@ -4,17 +4,17 @@
  * @version 0.1
  * @date 2024-12-14
 */
-#ifndef SYLAR_MUTEX_H
-#define SYLAR_MUTEX_H
+#ifndef __SYLAR_MUTEX_H__
+#define __SYLAR_MUTEX_H__
 
-#include <memory>
-#include <list>
 #include <thread>
 #include <functional>
-#include <stdint.h>
-#include <atomic>
+#include <memory>
 #include <pthread.h>
 #include <semaphore.h>
+#include <stdint.h>
+#include <atomic>
+#include <list>
 
 #include "noncopyable.h"
 

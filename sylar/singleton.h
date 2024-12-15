@@ -17,7 +17,7 @@ namespace {
 
 template<class T, class X, int N>
 T& GetInstanceX() {
-    staic T v;
+    static T v;
     return v;
 }
 
