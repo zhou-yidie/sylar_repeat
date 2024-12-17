@@ -8,5 +8,5 @@ CXX_INCLUDES = -I/home/zhouyidie/Codes/sylar_repeat/.
 
 CXX_FLAGS =  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g
 
-# Custom defines: CMakeFiles/test_log.dir/tests/test_log.cpp.o_DEFINES = __FILE__="tests/test_log.cpp"
+# Custom defines: CMakeFiles/test_util.dir/tests/test_log_printf.cpp.o_DEFINES = __FILE__="tests/test_log_printf.cpp"
 

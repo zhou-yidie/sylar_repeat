@@ -10,7 +10,7 @@
         "html": true,
         "lib": true
     },
-    "doxdocgen.generic.authorTag": "@author zhongluqiang(zhong.rs232@gmail.com)",
+    "doxdocgen.generic.authorTag": "@Rewritten author zhou-yidie",
     "doxdocgen.generic.paramTemplate": "@param[] {param} ",
     "doxdocgen.generic.includeTypeAtReturn": false,
     "doxdocgen.cpp.ctorText": "构造函数",
