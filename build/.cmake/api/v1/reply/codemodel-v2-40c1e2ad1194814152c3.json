@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.0"
+						"string" : "3.10"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -48,7 +48,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "test_log::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_log-Debug-92de39f3b64f78737116.json",
+					"jsonFile" : "target-test_log-Debug-04e390710f28578f6e61.json",
 					"name" : "test_log",
 					"projectIndex" : 0
 				}
