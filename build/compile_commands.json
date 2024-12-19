@@ -22,5 +22,11 @@
   "command": "/usr/bin/g++  -D__FILE__=\\\"tests/test_log.cpp\\\" -I/home/zhouyidie/Codes/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_log.dir/tests/test_log.cpp.o -c /home/zhouyidie/Codes/sylar_repeat/tests/test_log.cpp",
   "file": "/home/zhouyidie/Codes/sylar_repeat/tests/test_log.cpp",
   "output": "CMakeFiles/test_log.dir/tests/test_log.cpp.o"
+},
+{
+  "directory": "/home/zhouyidie/Codes/sylar_repeat/build",
+  "command": "/usr/bin/g++  -D__FILE__=\\\"tests/test_util.cpp\\\" -I/home/zhouyidie/Codes/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_util.dir/tests/test_util.cpp.o -c /home/zhouyidie/Codes/sylar_repeat/tests/test_util.cpp",
+  "file": "/home/zhouyidie/Codes/sylar_repeat/tests/test_util.cpp",
+  "output": "CMakeFiles/test_util.dir/tests/test_util.cpp.o"
 }
 ]

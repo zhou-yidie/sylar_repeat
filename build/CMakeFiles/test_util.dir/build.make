@@ -72,28 +72,28 @@ include CMakeFiles/test_util.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test_util.dir/flags.make
 
-CMakeFiles/test_util.dir/tests/test_log_printf.cpp.o: CMakeFiles/test_util.dir/flags.make
-CMakeFiles/test_util.dir/tests/test_log_printf.cpp.o: /home/zhouyidie/Codes/sylar_repeat/tests/test_log_printf.cpp
-CMakeFiles/test_util.dir/tests/test_log_printf.cpp.o: CMakeFiles/test_util.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zhouyidie/Codes/sylar_repeat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_util.dir/tests/test_log_printf.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"tests/test_log_printf.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_util.dir/tests/test_log_printf.cpp.o -MF CMakeFiles/test_util.dir/tests/test_log_printf.cpp.o.d -o CMakeFiles/test_util.dir/tests/test_log_printf.cpp.o -c /home/zhouyidie/Codes/sylar_repeat/tests/test_log_printf.cpp
+CMakeFiles/test_util.dir/tests/test_util.cpp.o: CMakeFiles/test_util.dir/flags.make
+CMakeFiles/test_util.dir/tests/test_util.cpp.o: /home/zhouyidie/Codes/sylar_repeat/tests/test_util.cpp
+CMakeFiles/test_util.dir/tests/test_util.cpp.o: CMakeFiles/test_util.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zhouyidie/Codes/sylar_repeat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_util.dir/tests/test_util.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"tests/test_util.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_util.dir/tests/test_util.cpp.o -MF CMakeFiles/test_util.dir/tests/test_util.cpp.o.d -o CMakeFiles/test_util.dir/tests/test_util.cpp.o -c /home/zhouyidie/Codes/sylar_repeat/tests/test_util.cpp
 
-CMakeFiles/test_util.dir/tests/test_log_printf.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_util.dir/tests/test_log_printf.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"tests/test_log_printf.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhouyidie/Codes/sylar_repeat/tests/test_log_printf.cpp > CMakeFiles/test_util.dir/tests/test_log_printf.cpp.i
+CMakeFiles/test_util.dir/tests/test_util.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_util.dir/tests/test_util.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"tests/test_util.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhouyidie/Codes/sylar_repeat/tests/test_util.cpp > CMakeFiles/test_util.dir/tests/test_util.cpp.i
 
-CMakeFiles/test_util.dir/tests/test_log_printf.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_util.dir/tests/test_log_printf.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"tests/test_log_printf.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhouyidie/Codes/sylar_repeat/tests/test_log_printf.cpp -o CMakeFiles/test_util.dir/tests/test_log_printf.cpp.s
+CMakeFiles/test_util.dir/tests/test_util.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_util.dir/tests/test_util.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"tests/test_util.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhouyidie/Codes/sylar_repeat/tests/test_util.cpp -o CMakeFiles/test_util.dir/tests/test_util.cpp.s
 
 # Object files for target test_util
 test_util_OBJECTS = \
-"CMakeFiles/test_util.dir/tests/test_log_printf.cpp.o"
+"CMakeFiles/test_util.dir/tests/test_util.cpp.o"
 
 # External object files for target test_util
 test_util_EXTERNAL_OBJECTS =
 
-/home/zhouyidie/Codes/sylar_repeat/bin/test_util: CMakeFiles/test_util.dir/tests/test_log_printf.cpp.o
+/home/zhouyidie/Codes/sylar_repeat/bin/test_util: CMakeFiles/test_util.dir/tests/test_util.cpp.o
 /home/zhouyidie/Codes/sylar_repeat/bin/test_util: CMakeFiles/test_util.dir/build.make
 /home/zhouyidie/Codes/sylar_repeat/bin/test_util: /home/zhouyidie/Codes/sylar_repeat/lib/libsylar.so
 /home/zhouyidie/Codes/sylar_repeat/bin/test_util: CMakeFiles/test_util.dir/link.txt
