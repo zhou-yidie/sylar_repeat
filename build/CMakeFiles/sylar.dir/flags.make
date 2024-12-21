@@ -14,3 +14,5 @@ CXX_FLAGS =  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-func
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/mutex.cc.o_DEFINES = __FILE__="sylar/mutex.cc"
 
+# Custom defines: CMakeFiles/sylar.dir/sylar/env.cc.o_DEFINES = __FILE__="sylar/env.cc"
+

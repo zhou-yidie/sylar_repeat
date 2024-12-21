@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 31,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
@@ -40,8 +40,14 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 32,
+				"line" : 33,
 				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 3
 			},
 			{
 				"command" : 2,
@@ -154,6 +160,36 @@
 			[
 				2
 			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "__FILE__=\"sylar/env.cc\""
+				},
+				{
+					"define" : "sylar_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/zhouyidie/Codes/sylar_repeat/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				3
+			]
 		}
 	],
 	"id" : "sylar::@6890427a1f51a3e7e1df",
@@ -183,7 +219,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -205,6 +242,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 2,
 			"path" : "sylar/mutex.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 3,
+			"path" : "sylar/env.cc",
 			"sourceGroupIndex" : 0
 		}
 	],

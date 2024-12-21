@@ -158,6 +158,43 @@ test_util/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_util.dir/build.make CMakeFiles/test_util.dir/build
 .PHONY : test_util/fast
 
+#=============================================================================
+# Target rules for targets named test_env
+
+# Build rule for target.
+test_env: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_env
+.PHONY : test_env
+
+# fast build rule for target.
+test_env/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_env.dir/build.make CMakeFiles/test_env.dir/build
+.PHONY : test_env/fast
+
+sylar/env.o: sylar/env.cc.o
+.PHONY : sylar/env.o
+
+# target to build an object file
+sylar/env.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/env.cc.o
+.PHONY : sylar/env.cc.o
+
+sylar/env.i: sylar/env.cc.i
+.PHONY : sylar/env.i
+
+# target to preprocess a source file
+sylar/env.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/env.cc.i
+.PHONY : sylar/env.cc.i
+
+sylar/env.s: sylar/env.cc.s
+.PHONY : sylar/env.s
+
+# target to generate assembly for a file
+sylar/env.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/env.cc.s
+.PHONY : sylar/env.cc.s
+
 sylar/log.o: sylar/log.cpp.o
 .PHONY : sylar/log.o
 
@@ -230,6 +267,30 @@ sylar/util.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/util.cpp.s
 .PHONY : sylar/util.cpp.s
 
+tests/test_env.o: tests/test_env.cc.o
+.PHONY : tests/test_env.o
+
+# target to build an object file
+tests/test_env.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_env.dir/build.make CMakeFiles/test_env.dir/tests/test_env.cc.o
+.PHONY : tests/test_env.cc.o
+
+tests/test_env.i: tests/test_env.cc.i
+.PHONY : tests/test_env.i
+
+# target to preprocess a source file
+tests/test_env.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_env.dir/build.make CMakeFiles/test_env.dir/tests/test_env.cc.i
+.PHONY : tests/test_env.cc.i
+
+tests/test_env.s: tests/test_env.cc.s
+.PHONY : tests/test_env.s
+
+# target to generate assembly for a file
+tests/test_env.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_env.dir/build.make CMakeFiles/test_env.dir/tests/test_env.cc.s
+.PHONY : tests/test_env.cc.s
+
 tests/test_log.o: tests/test_log.cpp.o
 .PHONY : tests/test_log.o
 
@@ -287,8 +348,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sylar"
+	@echo "... test_env"
 	@echo "... test_log"
 	@echo "... test_util"
+	@echo "... sylar/env.o"
+	@echo "... sylar/env.i"
+	@echo "... sylar/env.s"
 	@echo "... sylar/log.o"
 	@echo "... sylar/log.i"
 	@echo "... sylar/log.s"
@@ -298,6 +363,9 @@ help:
 	@echo "... sylar/util.o"
 	@echo "... sylar/util.i"
 	@echo "... sylar/util.s"
+	@echo "... tests/test_env.o"
+	@echo "... tests/test_env.i"
+	@echo "... tests/test_env.s"
 	@echo "... tests/test_log.o"
 	@echo "... tests/test_log.i"
 	@echo "... tests/test_log.s"
