@@ -25,6 +25,12 @@
 },
 {
   "directory": "/home/zhouyidie/Codes/sylar_repeat/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/config.cc\\\" -I/home/zhouyidie/Codes/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/config.cc.o -c /home/zhouyidie/Codes/sylar_repeat/sylar/config.cc",
+  "file": "/home/zhouyidie/Codes/sylar_repeat/sylar/config.cc",
+  "output": "CMakeFiles/sylar.dir/sylar/config.cc.o"
+},
+{
+  "directory": "/home/zhouyidie/Codes/sylar_repeat/build",
   "command": "/usr/bin/g++  -D__FILE__=\\\"tests/test_log.cpp\\\" -I/home/zhouyidie/Codes/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_log.dir/tests/test_log.cpp.o -c /home/zhouyidie/Codes/sylar_repeat/tests/test_log.cpp",
   "file": "/home/zhouyidie/Codes/sylar_repeat/tests/test_log.cpp",
   "output": "CMakeFiles/test_log.dir/tests/test_log.cpp.o"
@@ -40,5 +46,11 @@
   "command": "/usr/bin/g++  -D__FILE__=\\\"tests/test_env.cc\\\" -I/home/zhouyidie/Codes/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_env.dir/tests/test_env.cc.o -c /home/zhouyidie/Codes/sylar_repeat/tests/test_env.cc",
   "file": "/home/zhouyidie/Codes/sylar_repeat/tests/test_env.cc",
   "output": "CMakeFiles/test_env.dir/tests/test_env.cc.o"
+},
+{
+  "directory": "/home/zhouyidie/Codes/sylar_repeat/build",
+  "command": "/usr/bin/g++  -D__FILE__=\\\"tests/test_config.cc\\\" -I/home/zhouyidie/Codes/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_config.dir/tests/test_config.cc.o -c /home/zhouyidie/Codes/sylar_repeat/tests/test_config.cc",
+  "file": "/home/zhouyidie/Codes/sylar_repeat/tests/test_config.cc",
+  "output": "CMakeFiles/test_config.dir/tests/test_config.cc.o"
 }
 ]

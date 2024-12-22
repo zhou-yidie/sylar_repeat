@@ -5,10 +5,9 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "bin": true,
         "build": true,
         "html": true,
-        "lib": true
+        "lib": true,
     },
     "doxdocgen.generic.authorTag": "@Rewritten author zhou-yidie",
     "doxdocgen.generic.paramTemplate": "@param[] {param} ",
@@ -90,6 +89,19 @@
         "cinttypes": "cpp",
         "typeinfo": "cpp",
         "bit": "cpp",
-        "iomanip": "cpp"
+        "strstream": "cpp",
+        "complex": "cpp",
+        "unordered_set": "cpp",
+        "iomanip": "cpp",
+        "cfenv": "cpp",
+        "any": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "source_location": "cpp",
+        "numbers": "cpp",
+        "semaphore": "cpp",
+        "stop_token": "cpp",
+        "valarray": "cpp",
+        "variant": "cpp"
     },
 }

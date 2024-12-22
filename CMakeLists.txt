@@ -22,11 +22,19 @@ include_directories(.)
 
 option(BUILD_TEST "ON for complile test" ON)
 
+# 忽略Boost的警告 策略CMP0167
+#cmake_policy(SET CMP0167 NEW)
+find_package(Boost REQUIRED)
+if(Boost_FOUND)
+    include_directories(${Boost_INCLUDE_DIRS})
+endif()
+
 set(LIB_SRC
     sylar/log.cpp
     sylar/util.cpp
     sylar/mutex.cc
     sylar/env.cc
+    sylar/config.cc
     )
 
 add_library(sylar SHARED ${LIB_SRC})
@@ -35,12 +43,15 @@ force_redefine_file_macro_for_sources(sylar)
 set(LIBS
     sylar
     pthread
+    dl
+    yaml-cpp
 )
 
 if(BUILD_TEST)
 sylar_add_executable(test_log "tests/test_log.cpp" sylar "${LIBS}")
 sylar_add_executable(test_util "tests/test_util.cpp" sylar "${LIBS}")
 sylar_add_executable(test_env "tests/test_env.cc" sylar "${LIBS}")
+sylar_add_executable(test_config "tests/test_config.cc" sylar "${LIBS}")
 endif()
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)

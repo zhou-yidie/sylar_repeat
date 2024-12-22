@@ -1,0 +1,23 @@
+2024-12-21 20:01:07 [1004ms]	25282	brand_new_threa	0	[FATAL]	[root]	tests/test_log.cpp:39	fatal msg
+2024-12-21 20:01:07 [1004ms]	25282	brand_new_threa	0	[ERROR]	[root]	tests/test_log.cpp:40	err msg
+2024-12-21 20:01:07 [1004ms]	25282	brand_new_threa	0	[INFO]	[root]	tests/test_log.cpp:56	logger config:- name: root
+  level: INFO
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%d{%Y-%m-%d %H:%M:%S} %T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+    - type: FileLogAppender
+      file: ./log.txt
+      pattern: "%d{%Y-%m-%d %H:%M:%S} [%rms]%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+- name: system
+  level: INFO
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%d{%Y-%m-%d %H:%M:%S} [%rms]%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+    - type: FileLogAppender
+      file: /root/sylar-from-scratch/system.txt
+      pattern: "%d{%Y-%m-%d %H:%M:%S} [%rms]%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
+- name: test_logger
+  level: WARN
+  appenders:
+    - type: StdoutLogAppender
+      pattern: "%d:%rms%T%p%T%c%T%f:%l %m%n"

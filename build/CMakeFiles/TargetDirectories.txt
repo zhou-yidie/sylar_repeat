@@ -2,5 +2,6 @@
 /home/zhouyidie/Codes/sylar_repeat/build/CMakeFiles/test_log.dir
 /home/zhouyidie/Codes/sylar_repeat/build/CMakeFiles/test_util.dir
 /home/zhouyidie/Codes/sylar_repeat/build/CMakeFiles/test_env.dir
+/home/zhouyidie/Codes/sylar_repeat/build/CMakeFiles/test_config.dir
 /home/zhouyidie/Codes/sylar_repeat/build/CMakeFiles/edit_cache.dir
 /home/zhouyidie/Codes/sylar_repeat/build/CMakeFiles/rebuild_cache.dir
