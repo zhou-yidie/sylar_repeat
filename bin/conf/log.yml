@@ -9,4 +9,4 @@ logs:
       appenders:
           - type: StdoutLogAppender
           - type: FileLogAppender
-            file: /root/sylar-from-scratch/system.txt
+            file: /home/zhouyidie/Codes/sylar_repeat/system.txt

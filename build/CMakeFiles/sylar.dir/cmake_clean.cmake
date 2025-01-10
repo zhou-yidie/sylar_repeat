@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sylar.dir/sylar/log.cpp.o.d"
   "CMakeFiles/sylar.dir/sylar/mutex.cc.o"
   "CMakeFiles/sylar.dir/sylar/mutex.cc.o.d"
+  "CMakeFiles/sylar.dir/sylar/thread.cc.o"
+  "CMakeFiles/sylar.dir/sylar/thread.cc.o.d"
   "CMakeFiles/sylar.dir/sylar/util.cpp.o"
   "CMakeFiles/sylar.dir/sylar/util.cpp.o.d"
 )

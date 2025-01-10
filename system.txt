@@ -1,0 +1,6 @@
+2024-12-22 23:13:07 [3ms]	9037	test_thread	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/home/zhouyidie/Codes/sylar_repeat/bin/conf/log.yml ok
+2024-12-22 23:13:07 [3ms]	9037	test_thread	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/home/zhouyidie/Codes/sylar_repeat/bin/conf/system.yml ok
+2024-12-22 23:13:29 [4ms]	9084	test_thread	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/home/zhouyidie/Codes/sylar_repeat/bin/conf/log.yml ok
+2024-12-22 23:13:29 [4ms]	9084	test_thread	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/home/zhouyidie/Codes/sylar_repeat/bin/conf/system.yml ok
+2024-12-22 23:13:30 [4ms]	9090	test_thread	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/home/zhouyidie/Codes/sylar_repeat/bin/conf/log.yml ok
+2024-12-22 23:13:30 [4ms]	9090	test_thread	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/home/zhouyidie/Codes/sylar_repeat/bin/conf/system.yml ok
