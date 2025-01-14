@@ -23,7 +23,7 @@ include_directories(.)
 option(BUILD_TEST "ON for complile test" ON)
 
 # 忽略Boost的警告 策略CMP0167
-#cmake_policy(SET CMP0167 NEW)
+cmake_policy(SET CMP0167 NEW)
 find_package(Boost REQUIRED)
 if(Boost_FOUND)
     include_directories(${Boost_INCLUDE_DIRS})
