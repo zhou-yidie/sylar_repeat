@@ -50,8 +50,9 @@ public:
      * @brief 构造函数，用于创建用户协程
      * @param[] cb 协程入口函数
      * @param[] stacksize 栈大小
+     * @param[in] run_in_scheduler 本协程是否参与调度器调度，默认为true
      */
-    Fiber(std::function<void()> cb, size_t stacksize = 0);
+    Fiber(std::function<void()> cb, size_t stacksize = 0, bool runInScheduler = true);
 
     /**
      * @brief 析构函数
@@ -60,7 +61,7 @@ public:
 
     /**
      * @brief 重置协程状态和入口函数，复用栈空间，不重新创建栈
-     * @param[] cb 
+     * @param[in] cb 
      */
     void reset(std::function<void()> cb);
 
@@ -129,7 +130,8 @@ private:
     void *m_stack = nullptr;
     /// 协程入口函数
     std::function<void()> m_cb;
-
+    /// 本协程是否参与调度器调度
+    bool m_runInScheduler;
 };
 
 
