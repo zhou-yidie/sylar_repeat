@@ -884,7 +884,9 @@ CMakeFiles/test_log.dir/tests/test_log.cpp.o: ../tests/test_log.cpp \
   /usr/include/ucontext.h \
   /usr/include/x86_64-linux-gnu/bits/indirect-return.h \
   /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  ../sylar/scheduler.h \
+  ../sylar/iomanager.h
 
 
 /usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
@@ -1292,6 +1294,8 @@ CMakeFiles/test_log.dir/tests/test_log.cpp.o: ../tests/test_log.cpp \
 /usr/include/boost/lexical_cast/try_lexical_convert.hpp:
 
 /usr/include/boost/current_function.hpp:
+
+../sylar/iomanager.h:
 
 /usr/include/boost/assert/source_location.hpp:
 
@@ -2208,6 +2212,8 @@ CMakeFiles/test_log.dir/tests/test_log.cpp.o: ../tests/test_log.cpp \
 /usr/include/boost/mpl/aux_/config/msvc.hpp:
 
 /usr/include/boost/range/value_type.hpp:
+
+../sylar/scheduler.h:
 
 /usr/include/c++/11/bits/uses_allocator.h:
 

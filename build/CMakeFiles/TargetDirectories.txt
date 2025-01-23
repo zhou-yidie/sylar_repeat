@@ -7,5 +7,6 @@
 /root/workspace/code/sylar_repeat/build/CMakeFiles/test_fiber.dir
 /root/workspace/code/sylar_repeat/build/CMakeFiles/test_fiber2.dir
 /root/workspace/code/sylar_repeat/build/CMakeFiles/test_scheduler.dir
+/root/workspace/code/sylar_repeat/build/CMakeFiles/test_iomanager.dir
 /root/workspace/code/sylar_repeat/build/CMakeFiles/edit_cache.dir
 /root/workspace/code/sylar_repeat/build/CMakeFiles/rebuild_cache.dir
