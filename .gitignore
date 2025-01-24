@@ -47,7 +47,8 @@ test_thread
 test_fiber
 test_fiber2
 test_scheduler
-test_iomanger
+test_iomanager
+test_iomanager2
 
 #log
 system.txt

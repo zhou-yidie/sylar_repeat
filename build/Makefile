@@ -249,6 +249,19 @@ test_iomanager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager.dir/build.make CMakeFiles/test_iomanager.dir/build
 .PHONY : test_iomanager/fast
 
+#=============================================================================
+# Target rules for targets named test_iomanager2
+
+# Build rule for target.
+test_iomanager2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_iomanager2
+.PHONY : test_iomanager2
+
+# fast build rule for target.
+test_iomanager2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager2.dir/build.make CMakeFiles/test_iomanager2.dir/build
+.PHONY : test_iomanager2/fast
+
 sylar/config.o: sylar/config.cc.o
 .PHONY : sylar/config.o
 
@@ -585,6 +598,30 @@ tests/test_iomanager.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager.dir/build.make CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.s
 .PHONY : tests/test_iomanager.cc.s
 
+tests/test_iomanager2.o: tests/test_iomanager2.cc.o
+.PHONY : tests/test_iomanager2.o
+
+# target to build an object file
+tests/test_iomanager2.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager2.dir/build.make CMakeFiles/test_iomanager2.dir/tests/test_iomanager2.cc.o
+.PHONY : tests/test_iomanager2.cc.o
+
+tests/test_iomanager2.i: tests/test_iomanager2.cc.i
+.PHONY : tests/test_iomanager2.i
+
+# target to preprocess a source file
+tests/test_iomanager2.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager2.dir/build.make CMakeFiles/test_iomanager2.dir/tests/test_iomanager2.cc.i
+.PHONY : tests/test_iomanager2.cc.i
+
+tests/test_iomanager2.s: tests/test_iomanager2.cc.s
+.PHONY : tests/test_iomanager2.s
+
+# target to generate assembly for a file
+tests/test_iomanager2.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager2.dir/build.make CMakeFiles/test_iomanager2.dir/tests/test_iomanager2.cc.s
+.PHONY : tests/test_iomanager2.cc.s
+
 tests/test_log.o: tests/test_log.cpp.o
 .PHONY : tests/test_log.o
 
@@ -695,6 +732,7 @@ help:
 	@echo "... test_fiber"
 	@echo "... test_fiber2"
 	@echo "... test_iomanager"
+	@echo "... test_iomanager2"
 	@echo "... test_log"
 	@echo "... test_scheduler"
 	@echo "... test_thread"
@@ -741,6 +779,9 @@ help:
 	@echo "... tests/test_iomanager.o"
 	@echo "... tests/test_iomanager.i"
 	@echo "... tests/test_iomanager.s"
+	@echo "... tests/test_iomanager2.o"
+	@echo "... tests/test_iomanager2.i"
+	@echo "... tests/test_iomanager2.s"
 	@echo "... tests/test_log.o"
 	@echo "... tests/test_log.i"
 	@echo "... tests/test_log.s"

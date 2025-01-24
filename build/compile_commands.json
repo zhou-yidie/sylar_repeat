@@ -88,5 +88,10 @@
   "directory": "/root/workspace/code/sylar_repeat/build",
   "command": "/usr/bin/g++  -D__FILE__=\\\"tests/test_iomanager.cc\\\" -I/root/workspace/code/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o -c /root/workspace/code/sylar_repeat/tests/test_iomanager.cc",
   "file": "/root/workspace/code/sylar_repeat/tests/test_iomanager.cc"
+},
+{
+  "directory": "/root/workspace/code/sylar_repeat/build",
+  "command": "/usr/bin/g++  -D__FILE__=\\\"tests/test_iomanager2.cc\\\" -I/root/workspace/code/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_iomanager2.dir/tests/test_iomanager2.cc.o -c /root/workspace/code/sylar_repeat/tests/test_iomanager2.cc",
+  "file": "/root/workspace/code/sylar_repeat/tests/test_iomanager2.cc"
 }
 ]
