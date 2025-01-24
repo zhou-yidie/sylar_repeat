@@ -886,8 +886,11 @@ CMakeFiles/test_util.dir/tests/test_util.cpp.o: ../tests/test_util.cpp \
   /usr/include/x86_64-linux-gnu/sys/ucontext.h \
   /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
   ../sylar/scheduler.h \
-  ../sylar/iomanager.h
+  ../sylar/iomanager.h \
+  ../sylar/timer.h
 
+
+../sylar/timer.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 

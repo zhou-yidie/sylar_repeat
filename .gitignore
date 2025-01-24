@@ -49,6 +49,7 @@ test_fiber2
 test_scheduler
 test_iomanager
 test_iomanager2
+test_timer
 
 #log
 system.txt

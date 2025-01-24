@@ -886,8 +886,11 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: ../tests/test_env.cc \
   /usr/include/x86_64-linux-gnu/sys/ucontext.h \
   /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
   ../sylar/scheduler.h \
-  ../sylar/iomanager.h
+  ../sylar/iomanager.h \
+  ../sylar/timer.h
 
+
+../sylar/timer.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
