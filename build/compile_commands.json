@@ -51,6 +51,16 @@
 },
 {
   "directory": "/root/workspace/code/sylar_repeat/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/fd_manager.cc\\\" -I/root/workspace/code/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/fd_manager.cc.o -c /root/workspace/code/sylar_repeat/sylar/fd_manager.cc",
+  "file": "/root/workspace/code/sylar_repeat/sylar/fd_manager.cc"
+},
+{
+  "directory": "/root/workspace/code/sylar_repeat/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/hook.cc\\\" -I/root/workspace/code/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/hook.cc.o -c /root/workspace/code/sylar_repeat/sylar/hook.cc",
+  "file": "/root/workspace/code/sylar_repeat/sylar/hook.cc"
+},
+{
+  "directory": "/root/workspace/code/sylar_repeat/build",
   "command": "/usr/bin/g++  -D__FILE__=\\\"tests/test_log.cpp\\\" -I/root/workspace/code/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_log.dir/tests/test_log.cpp.o -c /root/workspace/code/sylar_repeat/tests/test_log.cpp",
   "file": "/root/workspace/code/sylar_repeat/tests/test_log.cpp"
 },
@@ -103,5 +113,10 @@
   "directory": "/root/workspace/code/sylar_repeat/build",
   "command": "/usr/bin/g++  -D__FILE__=\\\"tests/test_timer.cc\\\" -I/root/workspace/code/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_timer.dir/tests/test_timer.cc.o -c /root/workspace/code/sylar_repeat/tests/test_timer.cc",
   "file": "/root/workspace/code/sylar_repeat/tests/test_timer.cc"
+},
+{
+  "directory": "/root/workspace/code/sylar_repeat/build",
+  "command": "/usr/bin/g++  -D__FILE__=\\\"tests/test_hook.cc\\\" -I/root/workspace/code/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_hook.dir/tests/test_hook.cc.o -c /root/workspace/code/sylar_repeat/tests/test_hook.cc",
+  "file": "/root/workspace/code/sylar_repeat/tests/test_hook.cc"
 }
 ]

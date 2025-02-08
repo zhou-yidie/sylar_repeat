@@ -50,6 +50,7 @@ test_scheduler
 test_iomanager
 test_iomanager2
 test_timer
+test_hook
 
 #log
 system.txt

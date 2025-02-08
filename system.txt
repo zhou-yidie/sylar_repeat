@@ -74,3 +74,9 @@
 2025-01-24 17:18:36 [14ms]	490352	test_timer	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/root/workspace/code/sylar_repeat/bin/conf/test_config.yml ok
 2025-01-24 17:19:25 [3ms]	490584	test_timer	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/root/workspace/code/sylar_repeat/bin/conf/log.yml ok
 2025-01-24 17:19:25 [4ms]	490584	test_timer	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/root/workspace/code/sylar_repeat/bin/conf/test_config.yml ok
+2025-01-25 22:54:54 [5ms]	508096	test_hook	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/root/workspace/code/sylar_repeat/bin/conf/log.yml ok
+2025-01-25 22:54:54 [18ms]	508096	test_hook	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/root/workspace/code/sylar_repeat/bin/conf/test_config.yml ok
+2025-01-25 22:56:42 [5ms]	508378	test_hook	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/root/workspace/code/sylar_repeat/bin/conf/log.yml ok
+2025-01-25 22:56:42 [8ms]	508378	test_hook	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/root/workspace/code/sylar_repeat/bin/conf/test_config.yml ok
+2025-01-25 22:56:52 [3ms]	508398	test_hook	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/root/workspace/code/sylar_repeat/bin/conf/log.yml ok
+2025-01-25 22:56:52 [4ms]	508398	test_hook	0	[INFO]	[system]	sylar/config.cc:95	LoadConfFile file=/root/workspace/code/sylar_repeat/bin/conf/test_config.yml ok
