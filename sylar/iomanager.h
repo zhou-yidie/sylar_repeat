@@ -13,7 +13,7 @@
 
 namespace sylar {
 
-static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");
+
 
 class IOManager : public Scheduler, public TimerManager {
 public:

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../bin/test_util"
-  "../bin/test_util.pdb"
+  "/root/code/sylar_repeat/bin/test_util"
+  "/root/code/sylar_repeat/bin/test_util.pdb"
   "CMakeFiles/test_util.dir/tests/test_util.cpp.o"
   "CMakeFiles/test_util.dir/tests/test_util.cpp.o.d"
 )
