@@ -20,6 +20,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/code/sylar_repeat/sylar/mutex.cc" "CMakeFiles/sylar.dir/sylar/mutex.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/mutex.cc.o.d"
   "/root/code/sylar_repeat/sylar/scheduler.cc" "CMakeFiles/sylar.dir/sylar/scheduler.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/scheduler.cc.o.d"
   "/root/code/sylar_repeat/sylar/socket.cc" "CMakeFiles/sylar.dir/sylar/socket.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/socket.cc.o.d"
+  "/root/code/sylar_repeat/sylar/stream.cc" "CMakeFiles/sylar.dir/sylar/stream.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/stream.cc.o.d"
+  "/root/code/sylar_repeat/sylar/streams/socket_stream.cc" "CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o.d"
   "/root/code/sylar_repeat/sylar/tcp_server.cc" "CMakeFiles/sylar.dir/sylar/tcp_server.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/tcp_server.cc.o.d"
   "/root/code/sylar_repeat/sylar/thread.cc" "CMakeFiles/sylar.dir/sylar/thread.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/thread.cc.o.d"
   "/root/code/sylar_repeat/sylar/timer.cc" "CMakeFiles/sylar.dir/sylar/timer.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/timer.cc.o.d"

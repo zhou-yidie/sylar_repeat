@@ -46,6 +46,8 @@ set(LIB_SRC
     sylar/socket.cc
     sylar/bytearray.cc
     sylar/tcp_server.cc
+    sylar/stream.cc 
+    sylar/streams/socket_stream.cc
     )
 
 add_library(sylar SHARED ${LIB_SRC})

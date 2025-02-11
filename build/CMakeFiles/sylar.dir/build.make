@@ -296,6 +296,34 @@ CMakeFiles/sylar.dir/sylar/tcp_server.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sylar.dir/sylar/tcp_server.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/tcp_server.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/code/sylar_repeat/sylar/tcp_server.cc -o CMakeFiles/sylar.dir/sylar/tcp_server.cc.s
 
+CMakeFiles/sylar.dir/sylar/stream.cc.o: CMakeFiles/sylar.dir/flags.make
+CMakeFiles/sylar.dir/sylar/stream.cc.o: /root/code/sylar_repeat/sylar/stream.cc
+CMakeFiles/sylar.dir/sylar/stream.cc.o: CMakeFiles/sylar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/sylar.dir/sylar/stream.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/stream.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sylar.dir/sylar/stream.cc.o -MF CMakeFiles/sylar.dir/sylar/stream.cc.o.d -o CMakeFiles/sylar.dir/sylar/stream.cc.o -c /root/code/sylar_repeat/sylar/stream.cc
+
+CMakeFiles/sylar.dir/sylar/stream.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sylar.dir/sylar/stream.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/stream.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/code/sylar_repeat/sylar/stream.cc > CMakeFiles/sylar.dir/sylar/stream.cc.i
+
+CMakeFiles/sylar.dir/sylar/stream.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sylar.dir/sylar/stream.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/stream.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/code/sylar_repeat/sylar/stream.cc -o CMakeFiles/sylar.dir/sylar/stream.cc.s
+
+CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o: CMakeFiles/sylar.dir/flags.make
+CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o: /root/code/sylar_repeat/sylar/streams/socket_stream.cc
+CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o: CMakeFiles/sylar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/streams/socket_stream.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o -MF CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o.d -o CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o -c /root/code/sylar_repeat/sylar/streams/socket_stream.cc
+
+CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/streams/socket_stream.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/code/sylar_repeat/sylar/streams/socket_stream.cc > CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.i
+
+CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/streams/socket_stream.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/code/sylar_repeat/sylar/streams/socket_stream.cc -o CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.s
+
 # Object files for target sylar
 sylar_OBJECTS = \
 "CMakeFiles/sylar.dir/sylar/log.cpp.o" \
@@ -313,7 +341,9 @@ sylar_OBJECTS = \
 "CMakeFiles/sylar.dir/sylar/address.cc.o" \
 "CMakeFiles/sylar.dir/sylar/socket.cc.o" \
 "CMakeFiles/sylar.dir/sylar/bytearray.cc.o" \
-"CMakeFiles/sylar.dir/sylar/tcp_server.cc.o"
+"CMakeFiles/sylar.dir/sylar/tcp_server.cc.o" \
+"CMakeFiles/sylar.dir/sylar/stream.cc.o" \
+"CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o"
 
 # External object files for target sylar
 sylar_EXTERNAL_OBJECTS =
@@ -334,9 +364,11 @@ sylar_EXTERNAL_OBJECTS =
 /root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/sylar/socket.cc.o
 /root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/sylar/bytearray.cc.o
 /root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/sylar/tcp_server.cc.o
+/root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/sylar/stream.cc.o
+/root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o
 /root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/build.make
 /root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library /root/code/sylar_repeat/lib/libsylar.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX shared library /root/code/sylar_repeat/lib/libsylar.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sylar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
