@@ -15,6 +15,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/sylar.dir/sylar/fiber.cc.o.d"
   "CMakeFiles/sylar.dir/sylar/hook.cc.o"
   "CMakeFiles/sylar.dir/sylar/hook.cc.o.d"
+  "CMakeFiles/sylar.dir/sylar/http/http-parser/http_parser.c.o"
+  "CMakeFiles/sylar.dir/sylar/http/http-parser/http_parser.c.o.d"
+  "CMakeFiles/sylar.dir/sylar/http/http.cc.o"
+  "CMakeFiles/sylar.dir/sylar/http/http.cc.o.d"
   "CMakeFiles/sylar.dir/sylar/iomanager.cc.o"
   "CMakeFiles/sylar.dir/sylar/iomanager.cc.o.d"
   "CMakeFiles/sylar.dir/sylar/log.cpp.o"
@@ -40,6 +44,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/sylar.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
