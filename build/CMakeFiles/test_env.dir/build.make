@@ -76,15 +76,15 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: CMakeFiles/test_env.dir/flags.make
 CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_env.cc
 CMakeFiles/test_env.dir/tests/test_env.cc.o: CMakeFiles/test_env.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_env.dir/tests/test_env.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"tests/test_env.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_env.dir/tests/test_env.cc.o -MF CMakeFiles/test_env.dir/tests/test_env.cc.o.d -o CMakeFiles/test_env.dir/tests/test_env.cc.o -c /root/code/sylar_repeat/tests/test_env.cc
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"tests/test_env.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_env.dir/tests/test_env.cc.o -MF CMakeFiles/test_env.dir/tests/test_env.cc.o.d -o CMakeFiles/test_env.dir/tests/test_env.cc.o -c /root/code/sylar_repeat/tests/test_env.cc
 
 CMakeFiles/test_env.dir/tests/test_env.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_env.dir/tests/test_env.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"tests/test_env.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/code/sylar_repeat/tests/test_env.cc > CMakeFiles/test_env.dir/tests/test_env.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"tests/test_env.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/code/sylar_repeat/tests/test_env.cc > CMakeFiles/test_env.dir/tests/test_env.cc.i
 
 CMakeFiles/test_env.dir/tests/test_env.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_env.dir/tests/test_env.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"tests/test_env.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/code/sylar_repeat/tests/test_env.cc -o CMakeFiles/test_env.dir/tests/test_env.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"tests/test_env.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/code/sylar_repeat/tests/test_env.cc -o CMakeFiles/test_env.dir/tests/test_env.cc.s
 
 # Object files for target test_env
 test_env_OBJECTS = \

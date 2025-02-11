@@ -14,5 +14,6 @@
 /root/code/sylar_repeat/build/CMakeFiles/test_address.dir
 /root/code/sylar_repeat/build/CMakeFiles/test_socket_tcp_server.dir
 /root/code/sylar_repeat/build/CMakeFiles/test_socket_tcp_client.dir
+/root/code/sylar_repeat/build/CMakeFiles/test_bytearray.dir
 /root/code/sylar_repeat/build/CMakeFiles/edit_cache.dir
 /root/code/sylar_repeat/build/CMakeFiles/rebuild_cache.dir

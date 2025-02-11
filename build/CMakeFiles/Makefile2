@@ -82,6 +82,7 @@ all: CMakeFiles/test_hook.dir/all
 all: CMakeFiles/test_address.dir/all
 all: CMakeFiles/test_socket_tcp_server.dir/all
 all: CMakeFiles/test_socket_tcp_client.dir/all
+all: CMakeFiles/test_bytearray.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -105,6 +106,7 @@ clean: CMakeFiles/test_hook.dir/clean
 clean: CMakeFiles/test_address.dir/clean
 clean: CMakeFiles/test_socket_tcp_server.dir/clean
 clean: CMakeFiles/test_socket_tcp_client.dir/clean
+clean: CMakeFiles/test_bytearray.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -114,12 +116,12 @@ clean: CMakeFiles/test_socket_tcp_client.dir/clean
 CMakeFiles/sylar.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target sylar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target sylar"
 .PHONY : CMakeFiles/sylar.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sylar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sylar.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/sylar.dir/rule
@@ -140,12 +142,12 @@ CMakeFiles/sylar.dir/clean:
 CMakeFiles/test_log.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_log.dir/build.make CMakeFiles/test_log.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_log.dir/build.make CMakeFiles/test_log.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=32,33 "Built target test_log"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=35,36 "Built target test_log"
 .PHONY : CMakeFiles/test_log.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_log.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_log.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_log.dir/rule
@@ -166,12 +168,12 @@ CMakeFiles/test_log.dir/clean:
 CMakeFiles/test_util.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_util.dir/build.make CMakeFiles/test_util.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_util.dir/build.make CMakeFiles/test_util.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=44,45 "Built target test_util"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=47,48 "Built target test_util"
 .PHONY : CMakeFiles/test_util.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_util.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_util.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_util.dir/rule
@@ -192,12 +194,12 @@ CMakeFiles/test_util.dir/clean:
 CMakeFiles/test_env.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_env.dir/build.make CMakeFiles/test_env.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_env.dir/build.make CMakeFiles/test_env.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=20,21 "Built target test_env"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=23,24 "Built target test_env"
 .PHONY : CMakeFiles/test_env.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_env.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_env.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_env.dir/rule
@@ -218,12 +220,12 @@ CMakeFiles/test_env.dir/clean:
 CMakeFiles/test_config.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_config.dir/build.make CMakeFiles/test_config.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_config.dir/build.make CMakeFiles/test_config.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=18,19 "Built target test_config"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=21,22 "Built target test_config"
 .PHONY : CMakeFiles/test_config.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_config.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_config.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_config.dir/rule
@@ -244,12 +246,12 @@ CMakeFiles/test_config.dir/clean:
 CMakeFiles/test_thread.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_thread.dir/build.make CMakeFiles/test_thread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_thread.dir/build.make CMakeFiles/test_thread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=40,41 "Built target test_thread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=43,44 "Built target test_thread"
 .PHONY : CMakeFiles/test_thread.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_thread.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_thread.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_thread.dir/rule
@@ -270,12 +272,12 @@ CMakeFiles/test_thread.dir/clean:
 CMakeFiles/test_fiber.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fiber.dir/build.make CMakeFiles/test_fiber.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fiber.dir/build.make CMakeFiles/test_fiber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=22,23 "Built target test_fiber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=25,26 "Built target test_fiber"
 .PHONY : CMakeFiles/test_fiber.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_fiber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_fiber.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_fiber.dir/rule
@@ -296,12 +298,12 @@ CMakeFiles/test_fiber.dir/clean:
 CMakeFiles/test_fiber2.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fiber2.dir/build.make CMakeFiles/test_fiber2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fiber2.dir/build.make CMakeFiles/test_fiber2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=24,25 "Built target test_fiber2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=27,28 "Built target test_fiber2"
 .PHONY : CMakeFiles/test_fiber2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_fiber2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_fiber2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_fiber2.dir/rule
@@ -322,12 +324,12 @@ CMakeFiles/test_fiber2.dir/clean:
 CMakeFiles/test_scheduler.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_scheduler.dir/build.make CMakeFiles/test_scheduler.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_scheduler.dir/build.make CMakeFiles/test_scheduler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=34,35 "Built target test_scheduler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=37,38 "Built target test_scheduler"
 .PHONY : CMakeFiles/test_scheduler.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_scheduler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_scheduler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_scheduler.dir/rule
@@ -348,12 +350,12 @@ CMakeFiles/test_scheduler.dir/clean:
 CMakeFiles/test_iomanager.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager.dir/build.make CMakeFiles/test_iomanager.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager.dir/build.make CMakeFiles/test_iomanager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=28,29 "Built target test_iomanager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=31,32 "Built target test_iomanager"
 .PHONY : CMakeFiles/test_iomanager.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_iomanager.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_iomanager.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_iomanager.dir/rule
@@ -374,12 +376,12 @@ CMakeFiles/test_iomanager.dir/clean:
 CMakeFiles/test_iomanager2.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager2.dir/build.make CMakeFiles/test_iomanager2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_iomanager2.dir/build.make CMakeFiles/test_iomanager2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=30,31 "Built target test_iomanager2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=33,34 "Built target test_iomanager2"
 .PHONY : CMakeFiles/test_iomanager2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_iomanager2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_iomanager2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_iomanager2.dir/rule
@@ -400,12 +402,12 @@ CMakeFiles/test_iomanager2.dir/clean:
 CMakeFiles/test_timer.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_timer.dir/build.make CMakeFiles/test_timer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_timer.dir/build.make CMakeFiles/test_timer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=42,43 "Built target test_timer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=45,46 "Built target test_timer"
 .PHONY : CMakeFiles/test_timer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_timer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_timer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_timer.dir/rule
@@ -426,12 +428,12 @@ CMakeFiles/test_timer.dir/clean:
 CMakeFiles/test_hook.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_hook.dir/build.make CMakeFiles/test_hook.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_hook.dir/build.make CMakeFiles/test_hook.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=26,27 "Built target test_hook"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=29,30 "Built target test_hook"
 .PHONY : CMakeFiles/test_hook.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_hook.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_hook.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_hook.dir/rule
@@ -452,12 +454,12 @@ CMakeFiles/test_hook.dir/clean:
 CMakeFiles/test_address.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_address.dir/build.make CMakeFiles/test_address.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_address.dir/build.make CMakeFiles/test_address.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=16,17 "Built target test_address"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=17,18 "Built target test_address"
 .PHONY : CMakeFiles/test_address.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_address.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_address.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_address.dir/rule
@@ -478,12 +480,12 @@ CMakeFiles/test_address.dir/clean:
 CMakeFiles/test_socket_tcp_server.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_socket_tcp_server.dir/build.make CMakeFiles/test_socket_tcp_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_socket_tcp_server.dir/build.make CMakeFiles/test_socket_tcp_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=38,39 "Built target test_socket_tcp_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=41,42 "Built target test_socket_tcp_server"
 .PHONY : CMakeFiles/test_socket_tcp_server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_socket_tcp_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_socket_tcp_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_socket_tcp_server.dir/rule
@@ -504,12 +506,12 @@ CMakeFiles/test_socket_tcp_server.dir/clean:
 CMakeFiles/test_socket_tcp_client.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_socket_tcp_client.dir/build.make CMakeFiles/test_socket_tcp_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_socket_tcp_client.dir/build.make CMakeFiles/test_socket_tcp_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=36,37 "Built target test_socket_tcp_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=39,40 "Built target test_socket_tcp_client"
 .PHONY : CMakeFiles/test_socket_tcp_client.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_socket_tcp_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_socket_tcp_client.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_socket_tcp_client.dir/rule
@@ -522,6 +524,32 @@ test_socket_tcp_client: CMakeFiles/test_socket_tcp_client.dir/rule
 CMakeFiles/test_socket_tcp_client.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_socket_tcp_client.dir/build.make CMakeFiles/test_socket_tcp_client.dir/clean
 .PHONY : CMakeFiles/test_socket_tcp_client.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_bytearray.dir
+
+# All Build rule for target.
+CMakeFiles/test_bytearray.dir/all: CMakeFiles/sylar.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_bytearray.dir/build.make CMakeFiles/test_bytearray.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_bytearray.dir/build.make CMakeFiles/test_bytearray.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=19,20 "Built target test_bytearray"
+.PHONY : CMakeFiles/test_bytearray.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_bytearray.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 18
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_bytearray.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/code/sylar_repeat/build/CMakeFiles 0
+.PHONY : CMakeFiles/test_bytearray.dir/rule
+
+# Convenience name for target.
+test_bytearray: CMakeFiles/test_bytearray.dir/rule
+.PHONY : test_bytearray
+
+# clean rule for target.
+CMakeFiles/test_bytearray.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_bytearray.dir/build.make CMakeFiles/test_bytearray.dir/clean
+.PHONY : CMakeFiles/test_bytearray.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
