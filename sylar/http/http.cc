@@ -181,6 +181,9 @@ std::ostream &HttpRequest::dump(std::ostream &os) const {
         if (!m_websocket && strcasecmp(i.first.c_str(), "connection") == 0) {
             continue;
         }
+        if(!m_body.empty() && strcasecmp(i.first.c_str(), "content-length") == 0) {
+            continue;
+        }
         os << i.first << ": " << i.second << "\r\n";
     }
 
@@ -253,6 +256,17 @@ void HttpRequest::initCookies() {
     }
     PARSE_PARAM(cookie, m_cookies, ';', sylar::StringUtil::Trim);
     m_parserParamFlag |= 0x4;
+}
+
+void HttpRequest::init() {
+    std::string conn = getHeader("connection");
+    if (!conn.empty()) {
+        if (strcasecmp(conn.c_str(), "keep-alive") == 0) {
+            m_close = false;
+        } else {
+            m_close = true;
+        }
+    }
 }
 
 HttpResponse::HttpResponse(uint8_t version, bool close)

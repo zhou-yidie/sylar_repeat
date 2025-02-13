@@ -20,7 +20,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-unused-function -Wno-builtin-macro-
 
 include_directories(.)
 
-option(BUILD_TEST "ON for complile test" ON)
+option(BUILD_TEST "ON for complile test" OFF)
 
 # 忽略Boost的警告 策略CMP0167
 # cmake_policy(SET CMP0167 NEW)
@@ -50,6 +50,9 @@ set(LIB_SRC
     sylar/streams/socket_stream.cc
     sylar/http/http-parser/http_parser.c 
     sylar/http/http.cc
+    sylar/http/http_parser.cc
+    sylar/http/http_session.cc 
+    sylar/http/servlet.cc 
     )
 
 add_library(sylar SHARED ${LIB_SRC})
@@ -81,6 +84,7 @@ sylar_add_executable(test_socket_tcp_client "tests/test_socket_tcp_client.cc" sy
 sylar_add_executable(test_bytearray "tests/test_bytearray.cc" sylar "${LIBS}")
 sylar_add_executable(test_tcp_server "tests/test_tcp_server.cc" sylar "${LIBS}")
 sylar_add_executable(test_http "tests/test_http.cc" sylar "${LIBS}")
+sylar_add_executable(test_http_parser "tests/test_http_parser.cc" sylar "${LIBS}")
 endif()
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)

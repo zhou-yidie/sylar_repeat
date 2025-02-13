@@ -352,6 +352,48 @@ CMakeFiles/sylar.dir/sylar/http/http.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sylar.dir/sylar/http/http.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/http/http.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/code/sylar_repeat/sylar/http/http.cc -o CMakeFiles/sylar.dir/sylar/http/http.cc.s
 
+CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o: CMakeFiles/sylar.dir/flags.make
+CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o: /root/code/sylar_repeat/sylar/http/http_parser.cc
+CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o: CMakeFiles/sylar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/http/http_parser.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o -MF CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o.d -o CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o -c /root/code/sylar_repeat/sylar/http/http_parser.cc
+
+CMakeFiles/sylar.dir/sylar/http/http_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sylar.dir/sylar/http/http_parser.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/http/http_parser.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/code/sylar_repeat/sylar/http/http_parser.cc > CMakeFiles/sylar.dir/sylar/http/http_parser.cc.i
+
+CMakeFiles/sylar.dir/sylar/http/http_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sylar.dir/sylar/http/http_parser.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/http/http_parser.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/code/sylar_repeat/sylar/http/http_parser.cc -o CMakeFiles/sylar.dir/sylar/http/http_parser.cc.s
+
+CMakeFiles/sylar.dir/sylar/http/http_session.cc.o: CMakeFiles/sylar.dir/flags.make
+CMakeFiles/sylar.dir/sylar/http/http_session.cc.o: /root/code/sylar_repeat/sylar/http/http_session.cc
+CMakeFiles/sylar.dir/sylar/http/http_session.cc.o: CMakeFiles/sylar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/sylar.dir/sylar/http/http_session.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/http/http_session.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sylar.dir/sylar/http/http_session.cc.o -MF CMakeFiles/sylar.dir/sylar/http/http_session.cc.o.d -o CMakeFiles/sylar.dir/sylar/http/http_session.cc.o -c /root/code/sylar_repeat/sylar/http/http_session.cc
+
+CMakeFiles/sylar.dir/sylar/http/http_session.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sylar.dir/sylar/http/http_session.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/http/http_session.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/code/sylar_repeat/sylar/http/http_session.cc > CMakeFiles/sylar.dir/sylar/http/http_session.cc.i
+
+CMakeFiles/sylar.dir/sylar/http/http_session.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sylar.dir/sylar/http/http_session.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/http/http_session.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/code/sylar_repeat/sylar/http/http_session.cc -o CMakeFiles/sylar.dir/sylar/http/http_session.cc.s
+
+CMakeFiles/sylar.dir/sylar/http/servlet.cc.o: CMakeFiles/sylar.dir/flags.make
+CMakeFiles/sylar.dir/sylar/http/servlet.cc.o: /root/code/sylar_repeat/sylar/http/servlet.cc
+CMakeFiles/sylar.dir/sylar/http/servlet.cc.o: CMakeFiles/sylar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/sylar.dir/sylar/http/servlet.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/http/servlet.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sylar.dir/sylar/http/servlet.cc.o -MF CMakeFiles/sylar.dir/sylar/http/servlet.cc.o.d -o CMakeFiles/sylar.dir/sylar/http/servlet.cc.o -c /root/code/sylar_repeat/sylar/http/servlet.cc
+
+CMakeFiles/sylar.dir/sylar/http/servlet.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sylar.dir/sylar/http/servlet.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/http/servlet.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/code/sylar_repeat/sylar/http/servlet.cc > CMakeFiles/sylar.dir/sylar/http/servlet.cc.i
+
+CMakeFiles/sylar.dir/sylar/http/servlet.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sylar.dir/sylar/http/servlet.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) -D__FILE__=\"sylar/http/servlet.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/code/sylar_repeat/sylar/http/servlet.cc -o CMakeFiles/sylar.dir/sylar/http/servlet.cc.s
+
 # Object files for target sylar
 sylar_OBJECTS = \
 "CMakeFiles/sylar.dir/sylar/log.cpp.o" \
@@ -373,7 +415,10 @@ sylar_OBJECTS = \
 "CMakeFiles/sylar.dir/sylar/stream.cc.o" \
 "CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o" \
 "CMakeFiles/sylar.dir/sylar/http/http-parser/http_parser.c.o" \
-"CMakeFiles/sylar.dir/sylar/http/http.cc.o"
+"CMakeFiles/sylar.dir/sylar/http/http.cc.o" \
+"CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o" \
+"CMakeFiles/sylar.dir/sylar/http/http_session.cc.o" \
+"CMakeFiles/sylar.dir/sylar/http/servlet.cc.o"
 
 # External object files for target sylar
 sylar_EXTERNAL_OBJECTS =
@@ -398,9 +443,12 @@ sylar_EXTERNAL_OBJECTS =
 /root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o
 /root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/sylar/http/http-parser/http_parser.c.o
 /root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/sylar/http/http.cc.o
+/root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o
+/root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/sylar/http/http_session.cc.o
+/root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/sylar/http/servlet.cc.o
 /root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/build.make
 /root/code/sylar_repeat/lib/libsylar.so: CMakeFiles/sylar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX shared library /root/code/sylar_repeat/lib/libsylar.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/code/sylar_repeat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX shared library /root/code/sylar_repeat/lib/libsylar.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sylar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

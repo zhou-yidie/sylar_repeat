@@ -224,6 +224,12 @@ public:
     void setBody(const std::string& v) { m_body = v;}
 
     /**
+     * @brief 追加HTTP请求的消息体
+     * @param[in] v 追加内容
+     */
+    void appendBody(const std::string &v) { m_body.append(v); }
+
+    /**
      * @brief 是否自动关闭
      */
     bool isClose() const { return m_close;}
@@ -457,6 +463,11 @@ public:
      * @brief 提取请求中的cookies
      */
     void initCookies();
+
+    /**
+     * @brief 初始化，实际是判断connection是否为keep-alive，以设置是否自动关闭套接字
+     */
+    void init();
 private:
     /// HTTP方法
     HttpMethod m_method;
@@ -550,6 +561,12 @@ public:
      * @param[in] v 消息体
      */
     void setBody(const std::string& v) { m_body = v;}
+
+    /**
+     * @brief 追加HTTP请求的消息体
+     * @param[in] v 追加内容
+     */
+    void appendBody(const std::string &v) { m_body.append(v); }
 
     /**
      * @brief 设置响应原因

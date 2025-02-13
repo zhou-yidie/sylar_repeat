@@ -10,3 +10,8 @@ logs:
           - type: StdoutLogAppender
           - type: FileLogAppender
             file: /root/workspace/code/sylar_repeat/system.txt
+    - name: http
+      level: debug
+      appenders:
+          - type: StdoutLogAppender
+            pattern: "%f:%l%T%m%n"

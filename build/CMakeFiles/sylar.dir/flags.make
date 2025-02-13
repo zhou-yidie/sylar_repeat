@@ -55,3 +55,9 @@ CXX_FLAGS =  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-func
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/http/http.cc.o_DEFINES = __FILE__="sylar/http/http.cc"
 
+# Custom defines: CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o_DEFINES = __FILE__="sylar/http/http_parser.cc"
+
+# Custom defines: CMakeFiles/sylar.dir/sylar/http/http_session.cc.o_DEFINES = __FILE__="sylar/http/http_session.cc"
+
+# Custom defines: CMakeFiles/sylar.dir/sylar/http/servlet.cc.o_DEFINES = __FILE__="sylar/http/servlet.cc"
+
