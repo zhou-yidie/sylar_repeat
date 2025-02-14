@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/code/sylar_repeat/sylar/hook.cc" "CMakeFiles/sylar.dir/sylar/hook.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/hook.cc.o.d"
   "/root/code/sylar_repeat/sylar/http/http.cc" "CMakeFiles/sylar.dir/sylar/http/http.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http.cc.o.d"
   "/root/code/sylar_repeat/sylar/http/http_parser.cc" "CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o.d"
+  "/root/code/sylar_repeat/sylar/http/http_server.cc" "CMakeFiles/sylar.dir/sylar/http/http_server.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http_server.cc.o.d"
   "/root/code/sylar_repeat/sylar/http/http_session.cc" "CMakeFiles/sylar.dir/sylar/http/http_session.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http_session.cc.o.d"
   "/root/code/sylar_repeat/sylar/http/servlet.cc" "CMakeFiles/sylar.dir/sylar/http/servlet.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/servlet.cc.o.d"
   "/root/code/sylar_repeat/sylar/iomanager.cc" "CMakeFiles/sylar.dir/sylar/iomanager.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/iomanager.cc.o.d"
@@ -30,6 +31,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/code/sylar_repeat/sylar/tcp_server.cc" "CMakeFiles/sylar.dir/sylar/tcp_server.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/tcp_server.cc.o.d"
   "/root/code/sylar_repeat/sylar/thread.cc" "CMakeFiles/sylar.dir/sylar/thread.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/thread.cc.o.d"
   "/root/code/sylar_repeat/sylar/timer.cc" "CMakeFiles/sylar.dir/sylar/timer.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/timer.cc.o.d"
+  "/root/code/sylar_repeat/sylar/uri.cc" "CMakeFiles/sylar.dir/sylar/uri.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/uri.cc.o.d"
   "/root/code/sylar_repeat/sylar/util.cpp" "CMakeFiles/sylar.dir/sylar/util.cpp.o" "gcc" "CMakeFiles/sylar.dir/sylar/util.cpp.o.d"
   )
 

@@ -42,5 +42,9 @@
 #include "tcp_server.h"
 #include "http/http.h"
 #include "sylar/http/http_parser.h"
+#include "sylar/http/http_session.h"
+#include "sylar/http/servlet.h"
+#include "sylar/http/http_server.h"
+#include "sylar/uri.h"
 
 #endif
