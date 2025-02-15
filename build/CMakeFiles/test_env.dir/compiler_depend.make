@@ -18,9 +18,11 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
   /root/code/sylar_repeat/sylar/streams/socket_stream.h \
   /root/code/sylar_repeat/sylar/tcp_server.h \
   /root/code/sylar_repeat/sylar/thread.h \
+  /root/code/sylar_repeat/sylar/uri.h \
   /root/code/sylar_repeat/sylar/util.h \
   /root/code/sylar_repeat/sylar/http/http-parser/http_parser.h \
   /root/code/sylar_repeat/sylar/http/http.h \
+  /root/code/sylar_repeat/sylar/http/http_connection.h \
   /root/code/sylar_repeat/sylar/http/http_parser.h \
   /root/code/sylar_repeat/sylar/http/http_server.h \
   /root/code/sylar_repeat/sylar/http/http_session.h \
@@ -37,6 +39,7 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
   /root/code/sylar_repeat/sylar/tcp_server.h \
   /root/code/sylar_repeat/sylar/thread.h \
   /root/code/sylar_repeat/sylar/timer.h \
+  /root/code/sylar_repeat/sylar/uri.h \
   /root/code/sylar_repeat/sylar/util.h \
   /usr/include/alloca.h \
   /usr/include/arpa/inet.h \
@@ -1092,8 +1095,6 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /usr/include/c++/13/list:
 
-/usr/include/c++/13/iterator:
-
 /usr/include/c++/13/istream:
 
 /usr/include/c++/13/iosfwd:
@@ -1180,13 +1181,7 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /usr/include/c++/13/bits/stl_uninitialized.h:
 
-/usr/include/yaml-cpp/emitterstyle.h:
-
-/usr/include/time.h:
-
-/usr/include/boost/preprocessor/arithmetic/detail/div_base.hpp:
-
-/usr/include/boost/preprocessor/facilities/check_empty.hpp:
+/usr/include/c++/13/bits/stl_tree.h:
 
 /usr/include/boost/numeric/conversion/sign_mixture_enum.hpp:
 
@@ -1228,8 +1223,6 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /usr/include/boost/mpl/lambda_fwd.hpp:
 
-/usr/include/boost/mpl/integral_c.hpp:
-
 /usr/include/boost/numeric/conversion/conversion_traits.hpp:
 
 /usr/include/boost/preprocessor/seq/limits/size_256.hpp:
@@ -1242,11 +1235,15 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /usr/include/boost/mpl/has_xxx.hpp:
 
+/usr/include/c++/13/iterator:
+
+/root/code/sylar_repeat/sylar/uri.h:
+
 /usr/include/boost/mpl/placeholders.hpp:
 
-/usr/include/assert.h:
-
 /usr/include/boost/iterator/detail/config_undef.hpp:
+
+/usr/include/assert.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -1404,8 +1401,6 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /usr/include/boost/mpl/aux_/config/eti.hpp:
 
-/usr/include/boost/mpl/aux_/config/compiler.hpp:
-
 /usr/include/boost/mpl/aux_/config/bind.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
@@ -1418,15 +1413,11 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /usr/include/boost/mpl/aux_/arity_spec.hpp:
 
-/usr/include/boost/mpl/aux_/msvc_never_true.hpp:
+/usr/include/boost/numeric/conversion/detail/bounds.hpp:
 
-/usr/include/c++/13/bits/alloc_traits.h:
+/usr/include/boost/range/concepts.hpp:
 
-/root/code/sylar_repeat/sylar/http/http_parser.h:
-
-/usr/include/c++/13/version:
-
-/root/code/sylar_repeat/sylar/fiber.h:
+/usr/include/boost/type_traits/is_signed.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
@@ -1437,6 +1428,12 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 /usr/include/boost/concept/detail/has_constraints.hpp:
 
 /usr/include/boost/preprocessor/arithmetic/mod.hpp:
+
+/usr/include/yaml-cpp/node/node.h:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/root/code/sylar_repeat/tests/test_env.cc:
 
 /usr/include/boost/type_traits/is_integral.hpp:
 
@@ -1476,11 +1473,31 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /root/code/sylar_repeat/sylar/socket.h:
 
+/usr/include/boost/mpl/aux_/config/compiler.hpp:
+
+/root/code/sylar_repeat/sylar/http/http_connection.h:
+
 /usr/include/x86_64-linux-gnu/sys/ioctl.h:
 
 /usr/include/asm-generic/posix_types.h:
 
 /usr/include/boost/mpl/limits/arity.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/boost/assert.hpp:
+
+/usr/include/boost/preprocessor/arithmetic/sub.hpp:
+
+/root/code/sylar_repeat/sylar/http/http.h:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
+
+/usr/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/times.hpp:
+
+/usr/include/c++/13/bits/basic_ios.tcc:
 
 /usr/include/boost/mpl/next_prior.hpp:
 
@@ -1530,10 +1547,6 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /usr/include/boost/integer.hpp:
 
-/usr/include/boost/detail/workaround.hpp:
-
-/usr/include/c++/13/bits/gslice.h:
-
 /usr/include/boost/numeric/conversion/converter.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
@@ -1546,21 +1559,11 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /root/code/sylar_repeat/sylar/macro.h:
 
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/boost/mpl/apply_fwd.hpp:
-
 /usr/include/c++/13/cerrno:
 
 /usr/include/c++/13/bits/stringfwd.h:
 
 /usr/include/boost/preprocessor/repetition/detail/for.hpp:
-
-/usr/include/yaml-cpp/node/node.h:
-
-/root/code/sylar_repeat/tests/test_env.cc:
-
-/usr/include/c++/13/bits/stl_tempbuf.h:
 
 /root/code/sylar_repeat/sylar/config.h:
 
@@ -1568,9 +1571,13 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /root/code/sylar_repeat/sylar/fd_manager.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/times.hpp:
+/usr/include/boost/config/helper_macros.hpp:
 
-/usr/include/c++/13/bits/basic_ios.tcc:
+/usr/include/boost/lexical_cast/detail/lcast_char_constants.hpp:
+
+/usr/include/boost/mpl/aux_/na_spec.hpp:
+
+/root/code/sylar_repeat/sylar/util.h:
 
 /usr/include/boost/concept/detail/general.hpp:
 
@@ -1586,7 +1593,17 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /usr/include/boost/array.hpp:
 
-/usr/include/boost/type_traits/is_signed.hpp:
+/usr/include/boost/mpl/aux_/config/msvc.hpp:
+
+/usr/include/boost/range/value_type.hpp:
+
+/root/code/sylar_repeat/sylar/endian.h:
+
+/usr/include/c++/13/ext/concurrence.h:
+
+/usr/include/boost/move/detail/std_ns_end.hpp:
+
+/usr/include/boost/preprocessor/seq/elem.hpp:
 
 /root/code/sylar_repeat/sylar/noncopyable.h:
 
@@ -1610,6 +1627,8 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /usr/include/c++/13/bits/stl_map.h:
 
+/usr/include/boost/mpl/integral_c.hpp:
+
 /usr/include/c++/13/cctype:
 
 /usr/include/boost/mpl/times.hpp:
@@ -1622,21 +1641,23 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /usr/include/boost/type_traits/conditional.hpp:
 
-/usr/include/boost/mpl/aux_/na_spec.hpp:
+/usr/include/boost/mpl/apply_fwd.hpp:
 
-/root/code/sylar_repeat/sylar/util.h:
+/usr/include/asm-generic/bitsperlong.h:
 
-/usr/include/boost/mpl/aux_/config/msvc.hpp:
+/usr/include/boost/mpl/aux_/msvc_never_true.hpp:
 
-/usr/include/boost/range/value_type.hpp:
+/usr/include/c++/13/bits/alloc_traits.h:
 
-/usr/include/c++/13/ext/concurrence.h:
+/root/code/sylar_repeat/sylar/http/http_parser.h:
 
-/usr/include/boost/move/detail/std_ns_end.hpp:
+/usr/include/c++/13/bits/gslice.h:
 
-/usr/include/boost/preprocessor/seq/elem.hpp:
+/usr/include/boost/detail/workaround.hpp:
 
-/root/code/sylar_repeat/sylar/endian.h:
+/usr/include/c++/13/version:
+
+/root/code/sylar_repeat/sylar/fiber.h:
 
 /root/code/sylar_repeat/sylar/http/servlet.h:
 
@@ -1658,6 +1679,12 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /usr/include/boost/lexical_cast/detail/converter_lexical_streams.hpp:
 
+/root/code/sylar_repeat/sylar/singleton.h:
+
+/usr/include/boost/preprocessor/facilities/identity.hpp:
+
+/root/code/sylar_repeat/sylar/thread.h:
+
 /usr/include/x86_64-linux-gnu/bits/in.h:
 
 /usr/include/boost/config/detail/select_stdlib_config.hpp:
@@ -1667,6 +1694,10 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 /usr/include/c++/13/bits/refwrap.h:
 
 /root/code/sylar_repeat/sylar/http/http_server.h:
+
+/usr/include/boost/numeric/conversion/detail/sign_mixture.hpp:
+
+/usr/include/boost/iterator/detail/facade_iterator_category.hpp:
 
 /usr/include/boost/mpl/aux_/static_cast.hpp:
 
@@ -1708,27 +1739,11 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /usr/include/boost/preprocessor/logical/bitor.hpp:
 
-/usr/include/boost/preprocessor/facilities/identity.hpp:
+/usr/include/netinet/in.h:
 
-/root/code/sylar_repeat/sylar/thread.h:
+/usr/include/boost/mpl/aux_/arithmetic_op.hpp:
 
-/root/code/sylar_repeat/sylar/singleton.h:
-
-/usr/include/boost/config/helper_macros.hpp:
-
-/usr/include/boost/lexical_cast/detail/lcast_char_constants.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/boost/assert.hpp:
-
-/usr/include/boost/preprocessor/arithmetic/sub.hpp:
-
-/root/code/sylar_repeat/sylar/http/http.h:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
-
-/usr/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
+/usr/include/boost/type_traits/is_const.hpp:
 
 /usr/include/c++/13/bits/stl_multimap.h:
 
@@ -1778,16 +1793,6 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /usr/include/boost/core/use_default.hpp:
 
-/usr/include/boost/numeric/conversion/detail/bounds.hpp:
-
-/usr/include/boost/range/concepts.hpp:
-
-/usr/include/netinet/in.h:
-
-/usr/include/boost/type_traits/is_const.hpp:
-
-/usr/include/boost/mpl/aux_/arithmetic_op.hpp:
-
 /usr/include/boost/detail/indirect_traits.hpp:
 
 /usr/include/unistd.h:
@@ -1809,10 +1814,6 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/boost/iterator/detail/config_def.hpp:
-
-/usr/include/boost/numeric/conversion/detail/sign_mixture.hpp:
-
-/usr/include/boost/iterator/detail/facade_iterator_category.hpp:
 
 /usr/include/boost/iterator/distance.hpp:
 
@@ -1890,8 +1891,6 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 
 /usr/include/boost/mpl/arg_fwd.hpp:
 
-/usr/include/boost/preprocessor/arithmetic/dec.hpp:
-
 /usr/include/stdio.h:
 
 /usr/include/boost/detail/lcast_precision.hpp:
@@ -1905,6 +1904,16 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 /usr/include/boost/mpl/bind.hpp:
 
 /usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/include/boost/preprocessor/arithmetic/dec.hpp:
+
+/usr/include/yaml-cpp/emitterstyle.h:
+
+/usr/include/time.h:
+
+/usr/include/boost/preprocessor/arithmetic/detail/div_base.hpp:
+
+/usr/include/boost/preprocessor/facilities/check_empty.hpp:
 
 /usr/include/c++/13/bits/unordered_map.h:
 
@@ -2367,8 +2376,6 @@ CMakeFiles/test_env.dir/tests/test_env.cc.o: /root/code/sylar_repeat/tests/test_
 /usr/include/boost/type_traits/is_floating_point.hpp:
 
 /usr/include/c++/13/bits/codecvt.h:
-
-/usr/include/c++/13/bits/stl_tree.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 

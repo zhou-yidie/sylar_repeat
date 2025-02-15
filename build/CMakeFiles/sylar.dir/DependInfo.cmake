@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/code/sylar_repeat/sylar/fiber.cc" "CMakeFiles/sylar.dir/sylar/fiber.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/fiber.cc.o.d"
   "/root/code/sylar_repeat/sylar/hook.cc" "CMakeFiles/sylar.dir/sylar/hook.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/hook.cc.o.d"
   "/root/code/sylar_repeat/sylar/http/http.cc" "CMakeFiles/sylar.dir/sylar/http/http.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http.cc.o.d"
+  "/root/code/sylar_repeat/sylar/http/http_connection.cc" "CMakeFiles/sylar.dir/sylar/http/http_connection.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http_connection.cc.o.d"
   "/root/code/sylar_repeat/sylar/http/http_parser.cc" "CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o.d"
   "/root/code/sylar_repeat/sylar/http/http_server.cc" "CMakeFiles/sylar.dir/sylar/http/http_server.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http_server.cc.o.d"
   "/root/code/sylar_repeat/sylar/http/http_session.cc" "CMakeFiles/sylar.dir/sylar/http/http_session.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/http/http_session.cc.o.d"
