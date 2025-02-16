@@ -157,6 +157,12 @@
 },
 {
   "directory": "/root/code/sylar_repeat/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -D__FILE__=\\\"sylar/daemon.cc\\\" -I/root/code/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -fPIC -o CMakeFiles/sylar.dir/sylar/daemon.cc.o -c /root/code/sylar_repeat/sylar/daemon.cc",
+  "file": "/root/code/sylar_repeat/sylar/daemon.cc",
+  "output": "CMakeFiles/sylar.dir/sylar/daemon.cc.o"
+},
+{
+  "directory": "/root/code/sylar_repeat/build",
   "command": "/usr/bin/g++  -D__FILE__=\\\"tests/test_log.cpp\\\" -I/root/code/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_log.dir/tests/test_log.cpp.o -c /root/code/sylar_repeat/tests/test_log.cpp",
   "file": "/root/code/sylar_repeat/tests/test_log.cpp",
   "output": "CMakeFiles/test_log.dir/tests/test_log.cpp.o"
@@ -286,5 +292,11 @@
   "command": "/usr/bin/g++  -D__FILE__=\\\"tests/test_http_connection.cc\\\" -I/root/code/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_http_connection.dir/tests/test_http_connection.cc.o -c /root/code/sylar_repeat/tests/test_http_connection.cc",
   "file": "/root/code/sylar_repeat/tests/test_http_connection.cc",
   "output": "CMakeFiles/test_http_connection.dir/tests/test_http_connection.cc.o"
+},
+{
+  "directory": "/root/code/sylar_repeat/build",
+  "command": "/usr/bin/g++  -D__FILE__=\\\"tests/test_daemon.cc\\\" -I/root/code/sylar_repeat/.  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated -Wno-deprecated-declarations -g -o CMakeFiles/test_daemon.dir/tests/test_daemon.cc.o -c /root/code/sylar_repeat/tests/test_daemon.cc",
+  "file": "/root/code/sylar_repeat/tests/test_daemon.cc",
+  "output": "CMakeFiles/test_daemon.dir/tests/test_daemon.cc.o"
 }
 ]

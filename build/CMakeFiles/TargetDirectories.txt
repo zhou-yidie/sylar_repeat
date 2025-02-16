@@ -21,5 +21,6 @@
 /root/code/sylar_repeat/build/CMakeFiles/test_http_server.dir
 /root/code/sylar_repeat/build/CMakeFiles/test_uri.dir
 /root/code/sylar_repeat/build/CMakeFiles/test_http_connection.dir
+/root/code/sylar_repeat/build/CMakeFiles/test_daemon.dir
 /root/code/sylar_repeat/build/CMakeFiles/edit_cache.dir
 /root/code/sylar_repeat/build/CMakeFiles/rebuild_cache.dir

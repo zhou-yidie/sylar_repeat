@@ -67,3 +67,5 @@ CXX_FLAGS =  -std=c++11 -O0 -ggdb -Wall -Werror -rdynamic -fPIC -Wno-unused-func
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/http/http_connection.cc.o_DEFINES = __FILE__="sylar/http/http_connection.cc"
 
+# Custom defines: CMakeFiles/sylar.dir/sylar/daemon.cc.o_DEFINES = __FILE__="sylar/daemon.cc"
+
