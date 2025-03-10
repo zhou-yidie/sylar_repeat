@@ -1,0 +1,1 @@
+performance_test/stress_sylar/sylar_strace.log filter=lfs diff=lfs merge=lfs -text
