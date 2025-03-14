@@ -24,7 +24,8 @@ namespace sylar {
 
         if (use_caller) {
             --threads;
-            Fiber::GetThis();
+            sylar::Fiber::GetThis();
+            SYLAR_ASSERT(GetThis() == nullptr);
             t_scheduler = this;
             /**
              * caller线程的主协程不会被线程的调度协程run进行调度，而且，线程的调度协程停止时，应该返回caller线程的主协程

@@ -43,7 +43,9 @@ public:
      * @brief 返回单例裸指针
     */
     static T* GetInstance() {
-        return &GetInstanceX<T, X, N>();
+        static T v;
+        return &v;
+        //return &GetInstanceX<T, X, N>();
     }
 };
 
