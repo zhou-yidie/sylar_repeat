@@ -9,6 +9,8 @@
 #ifndef __SYLAR_THREAD_H__
 #define __SYLAR_THREAD_H__
 
+#include <functional>
+#include <memory>
 #include <string>
 
 #include "mutex.h"

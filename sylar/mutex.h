@@ -7,14 +7,10 @@
 #ifndef __SYLAR_MUTEX_H__
 #define __SYLAR_MUTEX_H__
 
-#include <thread>
-#include <functional>
-#include <memory>
 #include <pthread.h>
 #include <semaphore.h>
 #include <stdint.h>
 #include <atomic>
-#include <list>
 
 #include "noncopyable.h"
 
@@ -69,14 +65,23 @@ public:
     }
 
     /**
+     * @brief 加锁
+     */
+    void lock() {
+        if(!m_locked) {
+            m_mutex.lock();
+            m_locked = true;
+        }
+    }
+
+    /**
      * @brief 解锁
      */
     void unlock() {
-        if(!m_locked) {
-            return;
+        if(m_locked) {
+            m_mutex.unlock();
+            m_locked = false;   
         }
-        m_mutex.unlock();
-        m_locked = false;
     }
 private:
     // mutex
@@ -113,18 +118,17 @@ public:
         if(!m_locked) {
             m_mutex.rdlock();
             m_locked = true;
-            return;
+            // return;
         }
     }
     /**
      * @brief 解锁，释放锁
      */
     void unlock() {
-        if(!m_locked) {
-            return;
+        if(m_locked) {
+            m_mutex.unlock();
+            m_locked = false;
         }
-        m_mutex.unlock();
-        m_locked = false;
     }
 private:
     // mutex
