@@ -11,6 +11,7 @@
 #define __SYLAR_TIMER_H__
 
 #include <memory>
+#include <functional>
 #include <vector>
 #include <set>
 #include "mutex.h"
