@@ -35,10 +35,11 @@
 html
 
 # cmake output
-build
+build/
 lib
 
 # bin
+bin/
 test_config
 test_env
 test_log
